@@ -61,7 +61,10 @@ e.  using JSX grammer (2)
 e.g. Data Binding in React
 
 f. <h4 style={{color:'red', fontSize : '16px'}} id={post}>{post}</h4>   object data
+
 style={{스타일명:'값'}}
+
+-가 자바에서는 마이너스이기 때문에 폰트사이즈 붙여 쓰고 카멜케이스
 
 ____extra
 folder "kasa" creation at Desktop
