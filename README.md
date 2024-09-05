@@ -48,7 +48,7 @@ b. VS explore: node_modules; library, public; static file storage (e.g. images),
 
 c. app.js: make a blank page by eliminating all except for one div
 
-d. using JSX
+d. using JSX; "className"
 
 ____extra
 folder "kasa" creation at Desktop
