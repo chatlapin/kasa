@@ -40,6 +40,8 @@ Sep052024
 
 3. creat the react at the folder: create-react-app .
 
+4. open VS and terminal: "npm run start"
+
 ____extra
 folder "kasa" creation at Desktop
 
