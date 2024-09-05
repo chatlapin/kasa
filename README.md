@@ -66,6 +66,8 @@ style={{스타일명:'값'}}
 
 -가 자바에서는 마이너스이기 때문에 폰트사이즈 붙여 쓰고 카멜케이스
 
+인스펙터 콘솔에서 에러 메세지 확인
+
 ____extra
 folder "kasa" creation at Desktop
 
