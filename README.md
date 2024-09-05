@@ -42,9 +42,9 @@ Sep052024
 
 4. open VS and terminal: "npm run start"
 
-5. preview: terminal; "npm start"
+a. preview: terminal; "npm start"
 
-6. VS explore: node_modules; library, public; static file storage (e.g. images), SRC; making codes here, app.js; main, app.js role; app.js linking to html, package.json; project description 
+b. VS explore: node_modules; library, public; static file storage (e.g. images), SRC; making codes here, app.js; main, app.js role; app.js linking to html, package.json; project description 
 
 ____extra
 folder "kasa" creation at Desktop
