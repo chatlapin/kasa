@@ -30,3 +30,17 @@ src>data>logements.json
 
 App.jsx -- import data from 
 
+Sep052024
+
+étape1 initialisez le projet
+
+npm version check: npm -v
+folder "kasa" creation at Desktop
+termianl open: click mouse (right)
+create-react-app launch: npm install -g create-react-app
+---error: sudo npm install create-react-app
+npm update inflight uid-number fstream-ignore rimraf glob fstream tar
+sudo npm install
+
+
+
