@@ -114,14 +114,32 @@ eliminate warning messages: /* eslint-disable*/
     }}>글수정</button>
 
  5. component
- 6. <Modal></Modal>
- 
+<Modal></Modal>
+
+function Modal(){
+return(
+<div className="modal">
+  <h4>{글제목[0]}</h4>
+  <p>날짜</p>
+  <p>상세내용</p>
+</div>
+)
+ }
+
+ const Modal=()=>{}
+
+ let Modal=()=>{
+ return(
+ <div></div>
+ )
+ }
+ error: Modal=123;
     
 
 ____extra
 folder "kasa" creation at Desktop
 
-termianl open: click mouse (right)
+ open: click mouse (right)
 
 create-react-app launch: npm install -g create-react-app
 
