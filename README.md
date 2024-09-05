@@ -33,6 +33,20 @@ App.jsx -- import data from
 Sep052024
 
 étape1 initialisez le projet
+summary
+1.open command window
+2.make a folder, mkdir
+3. npx creat-react-app appname
+4. code .
+5. new terminal
+6. cd appname    npm start
+7. one div tag, eliminate all
+8. save by ctrl + s
+9. install bootrap
+npm install react-bootstrap bootsrap
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+className='row row-cols-1 row-cols-sm-2 row-cols-md-3g-""
 
 1. npm version check: npm -v
 
