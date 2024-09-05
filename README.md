@@ -104,14 +104,14 @@ et[글제목, 글제목변경 ] = useState(['남자코트 추천','강남 우동
       글제목변경(글제목);
     }}>글수정</button>
 
-      <button onClick={()=>{
+    array and object: reference type 
+    console.log(copy==글제목);
+
+        <button onClick={()=>{
       let copy = [...글제목];
       copy[0]="여자코트 추천";
       글제목변경(copy);
     }}>글수정</button>
-
-    array and object: reference type 
-    console.log(copy==글제목);
     
 
 ____extra
