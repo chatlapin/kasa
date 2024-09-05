@@ -90,10 +90,13 @@ let [a, b] = useState('남자 코트 추천'); // state를 만들어주는 함�
 변동시 state 쓰던 html이 자동렌더링
 
 3. let[글제목, b] = useState(['남자코트 추천','강남 우동맛집','파이썬 독학']);
-   
+
    let [따봉] = useState(0);
 
 이벤트핸들러 온클릭 onClick={}안엔 함수를 넣어야함. <h4>{글제목[0]} <span onClik={}</h4>
+
+eliminate warning messages: /* eslint-disable*/
+
 ____extra
 folder "kasa" creation at Desktop
 
