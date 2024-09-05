@@ -97,6 +97,19 @@ let [a, b] = useState('남자 코트 추천'); // state를 만들어주는 함�
 
 eliminate warning messages: /* eslint-disable*/
 
+et[글제목, 글제목변경 ] = useState(['남자코트 추천','강남 우동맛집','파이썬 독학']);
+
+  <button onClick={()=>{
+      글제목[0]="여자코트 추천";
+      글제목변경(글제목);
+    }}>글수정</button>
+
+      <button onClick={()=>{
+      let copy = [...글제목];
+      copy[0]="여자코트 추천";
+      글제목변경(copy);
+    }}>글수정</button>
+
 ____extra
 folder "kasa" creation at Desktop
 
