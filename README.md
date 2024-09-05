@@ -50,6 +50,8 @@ c. app.js: make a blank page by eliminating all except for one div
 
 d. using JSX; "className"
 
+app.js: import './App.css';
+
 ____extra
 folder "kasa" creation at Desktop
 
