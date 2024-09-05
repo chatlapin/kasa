@@ -46,6 +46,10 @@ a. preview: terminal; "npm start"
 
 b. VS explore: node_modules; library, public; static file storage (e.g. images), SRC; making codes here, app.js; main, app.js role; app.js linking to html, package.json; project description 
 
+c. app.js: make a blank page by eliminating all except for one div
+
+d. using JSX
+
 ____extra
 folder "kasa" creation at Desktop
 
