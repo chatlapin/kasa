@@ -34,10 +34,13 @@ Sep052024
 
 étape1 initialisez le projet
 
-npm version check: npm -v
+1. npm version check: npm -v
 
-create-react-app -V
+2. react version check: create-react-app -V
 
+3. creat the react at the folder: create-react-app .
+
+____extra
 folder "kasa" creation at Desktop
 
 termianl open: click mouse (right)
