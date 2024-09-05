@@ -60,7 +60,7 @@ e.  using JSX grammer (2)
 
 e.g. Data Binding in React
 
-f. <h4 style={{color:'red', fontSize : '16px'}} id={post}>{post}</h4>   object data
+1. <h4 style={{color:'red', fontSize : '16px'}} id={post}>{post}</h4>   object data
 
 style={{스타일명:'값'}}
 
@@ -69,6 +69,27 @@ style={{스타일명:'값'}}
 인스펙터 콘솔에서 에러 메세지 확인
 
 리턴내에 div는 하나
+
+2. JS Destructuring:
+
+let [a, b] = useState('남자 코트 추천'); // state를 만들어주는 함수
+
+ <h4> {a}</h4>
+
+ e.g. array에서 자료 뽑는 문법
+
+ let num=[1,2];
+
+ let[a,c] = [1,2];
+ 
+ //let a=num[0];
+ 
+  //let b=num[1];
+ 
+ 
+
+ 
+
 
 ____extra
 folder "kasa" creation at Desktop
