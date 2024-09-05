@@ -86,10 +86,8 @@ let [a, b] = useState('남자 코트 추천'); // state를 만들어주는 함�
  
   //let b=num[1];
  
- 
-
- 
-
+변수와 state의 차이점. 왜 state 써야함
+state 쓰던 html이 자동렌더링
 
 ____extra
 folder "kasa" creation at Desktop
