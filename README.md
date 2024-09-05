@@ -110,6 +110,10 @@ et[글제목, 글제목변경 ] = useState(['남자코트 추천','강남 우동
       글제목변경(copy);
     }}>글수정</button>
 
+    reference type 
+    console.log(copy==글제목);
+    
+
 ____extra
 folder "kasa" creation at Desktop
 
