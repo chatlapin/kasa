@@ -48,9 +48,15 @@ b. VS explore: node_modules; library, public; static file storage (e.g. images),
 
 c. app.js: make a blank page by eliminating all except for one div
 
-d. using JSX; "className"
+d. using JSX grammer (1); "className"
 
 app.js: import './App.css';
+
+e.  using JSX grammer (2)
+
+  let post = '강남 고기 맛집';
+  
+{} instead of document.querySelector('h4').innerHTML=post;
 
 ____extra
 folder "kasa" creation at Desktop
