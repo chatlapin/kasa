@@ -68,6 +68,8 @@ style={{스타일명:'값'}}
 
 인스펙터 콘솔에서 에러 메세지 확인
 
+리턴내에 div는 하나
+
 ____extra
 folder "kasa" creation at Desktop
 
