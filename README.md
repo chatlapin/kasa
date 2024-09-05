@@ -42,6 +42,8 @@ Sep052024
 
 4. open VS and terminal: "npm run start"
 
+5. preview: terminal; "npm start"
+
 ____extra
 folder "kasa" creation at Desktop
 
