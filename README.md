@@ -58,6 +58,10 @@ e.  using JSX grammer (2)
   
 {} instead of document.querySelector('h4').innerHTML=post;
 
+e.g. Data Binding in React
+
+f. <h4 style={{color:'red', fontSize : '16px'}} id={post}>{post}</h4>   object data
+
 ____extra
 folder "kasa" creation at Desktop
 
