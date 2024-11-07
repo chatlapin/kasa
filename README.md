@@ -11,7 +11,7 @@ Handling data or user interactions
 Set up a new React project using Create React App.
 Add the JSON data file.
 Ensure the app runs correctly.
-2. Routing: Install React Router.
+2. Routing: Install React Router: npm install react-router-dom
 Create routes for different pages (home, property details, error page).
 Implement navigation between pages.
 3. Component Creation: Build components for banners, cards, carousels, and collapses.
@@ -359,4 +359,52 @@ Linking Your Compiled SCSS to CSS
     <link rel="stylesheet" href="main.css">
 </head>
 
+Basic Routing Setup
+JavaScript
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './components/Home';
+import PropertyDetails from './components/PropertyDetails';
+import ErrorPage from './components/ErrorPage';
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/property/:id" element={<PropertyDetails />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+Navigation:
+
+To navigate between pages, you can use the Link component from react-router-dom:
+JavaScript
+import { Link } from 'react-router-dom';
+
+// In a component:
+<Link to="/">Home</Link>
+<Link to={`/property/${propertyId}`}>Property Details</Link>
+
+Dynamic Routes and Parameter Passing:
+The :id in the PropertyDetails route is a dynamic segment. You can access this parameter in your component using the useParams hook:
+
+JavaScript
+import { useParams } from 'react-router-dom';
+
+function PropertyDetails() {
+  const { id } = useParams();
+  // Use the 'id' parameter to fetch property details
+  return (
+    <div>
+      <h1>Property Details for ID: {id}</h1>
+      {/* ... */}
+    </div>
+  );
+}
 
