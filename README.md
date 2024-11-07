@@ -1,6 +1,12 @@
 # React + Vite
 
 Step-by-Step Guide
+Setting up your environment
+Using React Router
+Creating components
+Styling your application
+Handling data or user interactions
+
 1. Initialization:
 Set up a new React project using Create React App.
 Add the JSON data file.
