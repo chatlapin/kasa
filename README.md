@@ -1,6 +1,22 @@
 # React + Vite
-npm create vite@latest
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Step-by-Step Guide
+1. Initialization:
+Set up a new React project using Create React App.
+Add the JSON data file.
+Ensure the app runs correctly.
+2. Routing: Install React Router.
+Create routes for different pages (home, property details, error page).
+Implement navigation between pages.
+3. Component Creation: Build components for banners, cards, carousels, and collapses.
+Ensure components are reusable and efficient.
+Style components using Sass.
+4. Data Fetching and Display: Fetch data from the JSON file and display it in the appropriate components.
+Implement dynamic updates based on user interactions (e.g., clicking on a card).
+5. Error Handling: Handle invalid URLs and display an error page.
+6. Testing and Refinement: Thoroughly test the application.
+Ensure it matches the design specifications.
+Fix any bugs or issues.
 
 Currently, two official plugins are available:
 
@@ -48,9 +64,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 className='row row-cols-1 row-cols-sm-2 row-cols-md-3g-""
 
+vérifiez le nom de projet en package.json / npm install / react install
+
 1. npm version check: npm -v
 
-2. react version check: create-react-app -V
+2. react version check: create-react-app -v (package.json)
 
 3. creat the react at the folder: create-react-app .
 
