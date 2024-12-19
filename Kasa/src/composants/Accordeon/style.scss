@@ -1,0 +1,60 @@
+.accordeon {
+    max-width: 80%;
+    margin-inline: auto;
+    overflow: hidden;
+    margin-block: 20px;
+
+    .header {
+        border: none;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        background-color: #FF6060;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            transition: transform 0.3s ease-in-out;
+            transform-origin: 50%;
+
+            &.rotate {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .content {
+        background-color: #F6F6F673;
+
+
+        p {
+            margin: 20px 10px;
+
+            ul>li {
+                margin-block: 5px;
+            }
+
+            ul>li:last-child {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    /* animation */
+    .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out
+    }
+
+    &.open {
+        .content {
+            max-height: 250px;
+        }
+    }
+}
